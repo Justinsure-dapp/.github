@@ -1,11 +1,7 @@
-![a2f441f3a0ade2bcdebda214a6d82ec7aba4f934_2_1035x426](https://github.com/agrosurance/.github/assets/96080203/5a69e40e-faaf-4615-bb06-1a7bc4ddf7d6)
 
-<h4 style="text-align:center;" align="center">JustInsure is an innovative insurance platform empowering marketers to craft bespoke policies with transparent premium calculation and streamlined claim validation, fostering trust and confidence in policy transactions.</h4>
-
-
+<h3 style="text-align:center;" align="center">JustInsure is an innovative insurance platform empowering marketers to craft bespoke policies with transparent premium calculation and streamlined claim validation, fostering trust and confidence in policy transactions.</h4>
 
 ## Inspiration
-
 🌾Experience in Agriculture Insurance: Leveraged insights and lessons from developing Agrosurance, a web3 project focused on agriculture insurance, to inform the creation of JustInsure.
 
 🚜 Recognition of Industry Challenges: Acknowledged the challenges faced by farmers and insurers, including issues of accessibility, transparency, and trust within the insurance industry.
@@ -14,64 +10,75 @@
 
 🌐 Empowerment through Technology: Embraced the potential of technology to democratize the insurance market, putting power into the hands of users and fostering a community built on fairness, transparency, and trust.
 
-## What it does
+## What It Does
 
-### User-Centric Functionality
+JustInsure is a decentralized insurance platform designed to revolutionize the way insurance policies are created, managed, and claimed. It offers several key functionalities:
 
-1. The platform serves two primary user roles: insurance providers and policyholders. Insurance providers offer various insurance policies, while policyholders purchase and benefit from these policies.
+1. **Decentralized Insurance Creation:**  
+   Users can create custom insurance policies tailored to specific needs. By providing essential information such as policy name, logo, description, and relevant parameters, users can design policies that fit various sectors, including health, auto, and more.
 
-2. Users have the option to stake in different insurance policies using a unique staking mechanism. For every USD contributed, users receive 1 platform token. They can withdraw their USD at any time.
+2. **Smart Contracts for Transparency and Security:**  
+   All policies and claims are governed by smart contracts, ensuring that transactions are automated, secure, and transparent. This eliminates the need for intermediaries, reduces disputes, and fosters trust among users.
 
-3. Monthly, a fixed amount of “JustInsure tokens” is released to reward participants. 10% of these tokens are retained by the platform, to make profit and no tokens from the stakes / insurees would be taken as a fee, while the remaining tokens are distributed among stakeholders according to their stake ratios.
+3. **Gasless Transactions:**  
+   JustInsure supports gasless meta transactions, allowing users to create, buy, and claim policies without incurring transaction fees. This feature enhances accessibility and encourages participation from a broader audience.
 
-4. Out of the initial supply, in the first month we will release 20% of the total supply then every consecutive month, we will decrease the released coins by 20% so it will go like, 20%, then 16%, 12.8% and so on…
+4. **Staking Mechanism:**  
+   Marketers have to stake funds to activate policies, providing initial liquidity. The more marketer stakes, the more trustworthy the policy becomes. Users can also stake into policies. Staking also earns users rewards in the form of SureCoin, enhancing user engagement.
 
-5. Marketers play a pivotal role by creating new insurance policies and providing transparent functions for premium calculation and claim validation. These functions are accessible to users, ensuring transparency and trust in the insurance process. Policy providers can also stake in other policies.
+5. **Marketer Flexibility:**  
+   Claims are processed through a decentralized, automatic approach. This minimizes disputes and ensures fair resolutions, creating a transparent environment for policyholders.
 
-### Customized Staking Mechanism and Policy Visibility
+6. **Native Token - SureCoin:**  
+   JustInsure utilizes SureCoin as its native token, which plays a critical role in the platform’s tokenomics. Users can earn SureCoin by staking and participating in governance, fostering a sense of community ownership.
 
-1. A custom form empowers users to specify conditions to stake in other tokens like Sol, Link, Eth, Trx. These conditions include triggers such as deposit into the pool through premium, deposit through staking, time duration, or general deposit into the pool.
+7. **User-Friendly Interface:**  
+   The platform features an intuitive user interface that facilitates easy navigation for both users and marketers. It allows users to manage active and inactive policies, track their staking, and access necessary information effortlessly.
 
-2. Additional conditions, such as specific amounts or ranges of received deposits, are configurable. Users can also specify the percentage of money to be staked and the target destination for their stake.
+8. **API Access for Developers:**  
+   Developers can leverage JustInsure’s APIs and smart contracts to create their own insurance solutions. This flexibility enables the development of specialized insurance projects tailored to specific industries or demographics.
 
-3. Each insurance policy page provides visibility into the allocation of pooled funds and details of customized automated investments. Users can track how their stake is utilized and the automated investment strategy implemented for each policy.
+## What We Learned
 
-### Application and Developers Section [WIP]
+1. **Importance of User Feedback:**  
+   Engaging with users during the development process has proven invaluable. Their feedback has highlighted the need for a user-friendly interface, gasless transactions, and transparency in claims management. This input will guide future enhancements and ensure the platform meets user expectations.
 
-1. Developers have access to a comprehensive API that exposes JustInsure's functionalities, including policy creation, premium calculation, claim validation, stake management, and more.
+2. **Value of Decentralization:**  
+   Implementing a decentralized approach has shown to foster trust among users. By removing intermediaries and relying on smart contracts, we’ve observed a significant reduction in disputes, leading to a more seamless and secure experience.
 
-2. The API documentation will provide a detailed instructions on how to interact with each endpoint, along with sample requests and responses, enabling developers to seamlessly integrate JustInsure's features into their applications.
+3. **Community Engagement is Key:**  
+   Active participation from users and marketers is crucial for the platform’s success. Initiatives such as staking rewards and community-driven claims management have encouraged engagement and created a sense of ownership among users.
 
-3. With access to the API, developers can build their own websites or applications with a customized interface that showcases their policies and brand identity.
+4. **Regulatory Compliance Matters:**  
+   Navigating the regulatory landscape of the insurance industry is challenging but essential. Collaborating with industry experts has helped us identify compliance requirements, ensuring that our platform remains trustworthy and adheres to local laws.
 
-4. Developers have the flexibility to design and implement user interfaces tailored to their specific requirements, offering a unique and immersive experience for their users.
+5. **Innovation Drives Growth:**  
+   The insurance industry is ripe for innovation. Our explorations into customizable policies, advanced analytics, and new product offerings have revealed opportunities to cater to diverse market needs, ultimately enhancing the platform’s value proposition.
 
-5. All of the Applications which utilizes the JustInsure API would be visible to the consumer of JustInsure on the Application section so that they can easily access it from there.
 
-## Project Value:
-🪟 Transparency: Blockchain technology ensures transparency by providing a decentralized ledger where all transactions and activities related to policy creation, premium calculation, claim validation, and fund utilization are recorded. This transparency instills trust among users as they can verify how policy marketers are investing funds, validating claims, and generating premium costs without relying on a centralized source.
+## How we built it
+Frontend : React, Typescript, TailwindCss, Wagmi, Axios
 
-💰Liquidity: Blockchain enables the creation of unique incentives for individuals willing to maintain liquidity for policy marketers. Through a staking system, users can stake tokens for their chosen policies, providing liquidity to the platform. Policy marketers can also choose where to invest the received funds, and this process can be automated using blockchain technology. This liquidity mechanism enhances the accessibility and efficiency of the insurance marketplace.
 
-💸Rewards: Blockchain platforms inherently offer mechanisms for rewarding users. In our platform, users who stake tokens, regardless of the policy they choose, will be rewarded with SureCoins, our platform’s native tokens. These rewards are generated from the total initial token supply and are proportionately distributed based on the staking amount. To maintain token value and incentivize participation, tokens will be released monthly, with the percentage of the initial supply decreasing by 20% each month.
+Server: Typescript, Express, NodeJs, , Mongoose, Pinata.Cloud, Viem
 
-👩‍💻Secure Function Execution: While function definitions are public, the actual execution occurs in a secure and private server environment managed by us. User details, provided as function arguments, are not stored on the blockchain. Instead, a server executes the functions, signs the outputs, and our smart contract verifies the authenticity of the execution log before accepting premiums. This approach ensures data privacy and security while maintaining the benefits of transparency and decentralization.
 
-## Benefits of Blockchain and Decentralization:
+Smart Contracts: Solidity, Hardhat, Openzeppelin/Contracts, Viem
 
-🤝Trust and Reliability: Blockchain’s decentralized nature eliminates the need for a central authority, ensuring trust and reliability in the insurance marketplace. Users can confidently engage with the platform knowing that their transactions and interactions are transparent, immutable, and resistant to tampering or manipulation.
 
-🔐Security: Blockchain technology employs robust cryptographic techniques to secure data and transactions. This enhances the security of sensitive information such as personal details, policy terms, and financial transactions, reducing the risk of fraud or data breaches.
+## What’s Next for JustInsure
+1. User Education and Community Building
+After the mainnet launch, we will focus on user education through tutorials, webinars, and community forums to foster engagement and empower users to effectively navigate the platform.
 
-💪Efficiency and Automation: Smart contracts, a key feature of blockchain technology, enable the automation of various processes such as premium calculation, claim validation, and rewards distribution. This streamlines operations, reduces administrative overhead, and ensures timely and accurate execution of contractual agreements.
+2. Continuous Improvement and Feature Expansion
+We will prioritize gathering user feedback to enhance platform functionalities, including advanced analytics and improved staking rewards, while exploring partnerships to expand our service offerings.
 
-🤑Incentives and Rewards: By leveraging blockchain’s tokenization capabilities, our platform can incentivize user participation and engagement through rewards and token-based incentives. This fosters a vibrant and active community while aligning the interests of stakeholders towards the platform’s success.
+3. Regulatory Compliance and Global Expansion
+We will collaborate with industry experts to ensure ongoing compliance with regulations across various regions, facilitating JustInsure's global expansion while maintaining transparency and security.
 
-## What's next for JustInsure
+4. Targeted Marketing Campaigns
+To drive user acquisition, we will launch marketing campaigns that highlight the advantages of decentralized insurance, leveraging strategic partnerships and community incentives to boost awareness.
 
-⌛Integrate the functionality which is already being developed on the smart contract with the frontend and backend
-
-🧑‍💻Add functionality of Automated Investment of policy pool money in different tokens and integrate it with its already developed frontend. Make JustInsure fully functioning to support and work as an Telegram mini app
-
-🧑‍💻Implement Application and developer features within the JustInsure platform, enabling Developers to utilize the functionalities of JustInsure through APIs into their own applications. They can create their own websites which would list only their own policies. All these applications would be listed in the Application section to let consumers of JustInsure know about them.
+5. Development of Innovative Insurance Product
+As we grow our user base, we will explore creating customized insurance products for sectors such as travel and property, enhancing the platform's value and catering to diverse market needs.
 
